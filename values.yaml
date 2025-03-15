@@ -55,7 +55,7 @@ expose:
     staticClusterIP: ""
     ports:
       # The service port Harbor listens on when serving HTTP
-      httpPort: 80
+      httpPort: 81
       # The service port Harbor listens on when serving HTTPS
       httpsPort: 443
     # Annotations on the ClusterIP service
@@ -68,7 +68,7 @@ expose:
     ports:
       http:
         # The service port Harbor listens on when serving HTTP
-        port: 80
+        port: 81
         # The node port Harbor listens on when serving HTTP
         nodePort: 30002
       https:
@@ -87,7 +87,7 @@ expose:
     IP: ""
     ports:
       # The service port Harbor listens on when serving HTTP
-      httpPort: 80
+      httpPort: 81
       # The service port Harbor listens on when serving HTTPS
       httpsPort: 443
     # Annotations on the loadBalancer service
